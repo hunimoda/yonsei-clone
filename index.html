@@ -10,7 +10,9 @@
   <body>
     <header class="front-header">
       <div class="front-header__top-bar">
-        <img src="img/logo-header.png" alt="Yonsei Univ. Logo" />
+        <a href="index.html">
+          <img src="img/logo-header.png" alt="Yonsei Univ. Logo" />
+        </a>
         <nav class="top-bar__navbar">
           <ul>
             <li><a href="#">About Yonsei</a></li>
@@ -19,7 +21,9 @@
             <li><a href="#">Academics</a></li>
             <li><a href="#">Campus Life</a></li>
             <li>
-              <a href="#"><i class="fas fa-ellipsis-h fa-sm"></i></a>
+              <a href="#"
+                ><i class="fas fa-ellipsis-h fa-sm open-util-menu"></i
+              ></a>
             </li>
           </ul>
         </nav>
@@ -63,6 +67,44 @@
         </span>
       </video>
     </header>
+    <aside class="util-menu hidden">
+      <div class="util-menu__mask"></div>
+      <div class="util-menu__bar">
+        <span class="util-menu__exit-btn">
+          <a href="#">
+            <i class="fas fa-sign-out-alt fa-lg"></i>
+          </a>
+        </span>
+        <div class="util-menu__row">
+          <div class="util-menu__column">
+            <span class="util-menu__class"><a href="#">FAQ</a></span>
+          </div>
+          <div class="util-menu__column"></div>
+        </div>
+        <div class="util-menu__row">
+          <div class="util-menu__column">
+            <span class="util-menu__class">Campus</span>
+          </div>
+          <div class="util-menu__column">
+            <span class="util-menu__item"><a href="#">sinchon-intl</a></span>
+            <span class="util-menu__item"><a href="#">mirae</a></span>
+          </div>
+        </div>
+        <div class="util-menu__row">
+          <div class="util-menu__column">
+            <span class="util-menu__class">Language</span>
+          </div>
+          <div class="util-menu__column">
+            <span class="util-menu__item"><a href="#">english</a></span>
+            <span class="util-menu__item"><a href="#">korean</a></span>
+          </div>
+        </div>
+        <form class="util-menu__search">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search" />
+        </form>
+      </div>
+    </aside>
     <script src="js/main-header.js"></script>
     <script
       src="https://kit.fontawesome.com/953e29909a.js"
