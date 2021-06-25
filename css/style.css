@@ -109,7 +109,7 @@
   align-items: center;
 }
 
-.bottom__sns > i {
+.bottom__sns i {
   margin-bottom: 30px;
   margin-right: 20px;
 }
@@ -137,7 +137,7 @@
 .fa-facebook-square,
 .fa-instagram,
 .fa-youtube {
-  transition: color 0.1s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 
 .fa-linkedin:hover {
